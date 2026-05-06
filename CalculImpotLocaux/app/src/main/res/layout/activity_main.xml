@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcul des Impôts Locaux"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/edit_surface_maison"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Surface habitable (m²)"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edit_nb_pieces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre total de pièces"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/check_piscine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Présence d'une piscine"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_calculer_impot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer le montant"
+        android:backgroundTint="#27AE60"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/text_resultat_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Montant : --- DH"
+        android:textSize="20sp"
+        android:textColor="#E74C3C"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>
