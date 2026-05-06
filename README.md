@@ -7,8 +7,8 @@
 ## Demonstration Video
 Visualisation du calcul en temps reel avec les differents parametres :
 
-<video src="video.mp4" controls="controls" style="max-width: 100%;">
-</video>
+[<video src="video.mp4" controls="controls" style="max-width: 100%;">
+</video>](https://github.com/hajar8chaira/Lab2-dev-Calculateur-d-imp-ts-/raw/main/video.mp4)
 
 ---
 
