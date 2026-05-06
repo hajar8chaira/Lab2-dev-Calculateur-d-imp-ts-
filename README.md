@@ -8,8 +8,8 @@
 Visualisation du calcul en temps reel avec les differents parametres :
 
 
-<video src="https://github.com/hajar8chaira/Lab2-dev-Calculateur-d-imp-ts-/raw/main/video.mp4" controls="controls" style="max-width: 100%;">
-</video>
+[<video src="https://github.com/hajar8chaira/Lab2-dev-Calculateur-d-imp-ts-/raw/main/video.mp4" controls="controls" style="max-width: 100%;">
+</video>](https://github.com/user-attachments/assets/0184dc89-347d-4b2c-9978-4e98312c80a6)
 
 
 ---
